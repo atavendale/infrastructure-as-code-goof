@@ -1,4 +1,4 @@
-FROM php:7.4-cli
+FROM php:latest
 COPY src/index.php /usr/src/myapp/index.php
 COPY src/cards.json /db/cards.json
 WORKDIR /usr/src/myapp
